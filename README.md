@@ -1,4 +1,4 @@
-## 🖥️ <a href="https://scholarium.com.br/" target="_blank">Scholarium</a>
+## 🖥️ <a href="https://scholarium.com.br/">Scholarium</a>
 
 Site criado para Sistema de organização de atividades escolares.
 
