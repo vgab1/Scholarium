@@ -1,4 +1,4 @@
-## 🖥️ <a href="vgab1.github.io/Scholarium/">Scholarium</a>
+## 🖥️ <a href="https://vgab1.github.io/Scholarium/">Scholarium</a>
 
 Landing Page criado para Sistema de organização de atividades escolares.
 
