@@ -1,0 +1,396 @@
+:root {
+  --text-color: #212529;
+  --card-0-color: #a3a3aa;
+  --card-1-color: #e69f72;
+  --card-2-color: #379c8c;
+  --card-3-color: #456ba4;
+  --card-btn-0: #7c7c85;
+  --card-btn-1: #ce8b64;
+  --card-btn-2: #2b8374;
+  --card-btn-3: #3a6081;
+}
+
+/* Geral */
+* {
+  font-family: Lato, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 1.8rem;
+}
+
+#logo-title {
+  font-family: bai Jamjuree;
+  color: var(--card-3-color);
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+
+#logo-text {
+  font-family: roboto;
+}
+
+/* img app */
+#about {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1.25rem;
+  padding: 1.25rem;
+}
+
+.app-box {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+}
+
+.app-box img {
+  width: 100%;
+  height: auto;
+}
+
+.app-box p {
+  padding: 0.9rem;
+  margin: 0;
+  font-size: 0.8rem;
+  color: #333;
+}
+
+/* Assinaturas */
+h3 {
+  text-align: center;
+  font-family: roboto;
+  font-size: 2.5rem;
+  padding-top: 3rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  padding-bottom: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body {
+  line-height: 2rem;
+  padding: 1rem;
+  margin: 1rem;
+  width: 250px;
+  text-align: center;
+  transition: 0.4s;
+}
+
+.cards:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-body h2 {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.card-body button {
+  display: flex;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.description {
+  list-style: none;
+  padding-bottom: 2rem;
+}
+
+#free-card {
+  border: 2px solid var(--card-0-color);
+  border-radius: 5px;
+}
+
+#free-header {
+  background-color: var(--card-0-color);
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+#free-btn {
+  padding: 0.6rem 1.6rem;
+  background-color: var(--card-0-color);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#free-btn:hover {
+  background-color: var(--card-btn-0);
+}
+
+#month-card {
+  border: 2px solid var(--card-1-color);
+  border-radius: 5px;
+}
+
+#month-header {
+  background-color: var(--card-1-color);
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+#month-btn {
+  padding: 0.6rem 1.6rem;
+  background-color: var(--card-1-color);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#month-btn:hover {
+  background-color: var(--card-btn-1);
+}
+
+#semester-card {
+  border: 2px solid var(--card-2-color);
+  border-radius: 5px;
+}
+
+#semester-header {
+  background-color: var(--card-2-color);
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+#semester-btn {
+  padding: 0.6rem 1.6rem;
+  background-color: var(--card-2-color);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#semester-btn:hover {
+  background-color: var(--card-btn-2);
+}
+
+#year-card {
+  border: 2px solid var(--card-3-color);
+  border-radius: 5px;
+}
+
+#year-header {
+  background-color: var(--card-3-color);
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+#year-btn {
+  padding: 0.6rem 1.6rem;
+  background-color: var(--card-3-color);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#year-btn:hover {
+  background-color: var(--card-btn-3);
+}
+
+/* Contato */
+#contact {
+  background-color: var(--card-2-color);
+  gap: 0;
+  padding-bottom: 5rem;
+}
+
+#contact-information {
+  position: relative;
+  text-align: left;
+  padding: 3rem;
+  flex: 1 1 0;
+}
+
+#contact-information .section-subtitle {
+  color: #fff;
+  padding-bottom: 1rem;
+  font-size: 1.6rem;
+}
+
+#contact-information i {
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  color: #fff;
+}
+
+#contact-information form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#contact-information .form-control {
+  display: flex;
+  gap: 1rem;
+}
+
+#contact-information input,
+#contact-information textarea {
+  flex: 0.5;
+  padding: 1rem;
+  border: none;
+}
+
+#contact-information .btn {
+  align-self: start;
+  background-color: #fff;
+  color: var(--card-2-color);
+  font-size: 1.2rem;
+  transition: 0.4s;
+  cursor: pointer;
+  padding: 0.6rem 1.2rem;
+  opacity: 1;
+}
+
+#contact-information .btn:hover {
+  opacity: 0.9;
+}
+
+/* footer */
+#footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.footer-title {
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+}
+
+.accordion {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.accordion-item {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.accordion-header i {
+  display: none;
+}
+
+.accordion-content {
+  padding: 0 0.6rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.accordion-item--active .accordion-header {
+  background-color: var(--card-3-color);
+  color: #fff;
+}
+
+.accordion-item--active .accordion-content {
+  transition: 0.5s;
+  max-height: 1000px;
+}
+
+.accordion-item--closed .accordion-content {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.accordion-content {
+  transition: 0.3s;
+}
+
+#copy {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+/* Responsivo */
+@media (max-width: 480px) {
+  /* Img App */
+  #about {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  /* Assinatura */
+  .cards:hover {
+    box-shadow: none;
+  }
+
+  /* Contato */
+  #contact {
+    padding-bottom: 0;
+  }
+
+  #contact-information {
+    padding: 7rem 1rem;
+  }
+
+  #contact-information .form-control {
+    flex-direction: column;
+  }
+
+  #contact-information .btn {
+    align-self: auto;
+  }
+}
